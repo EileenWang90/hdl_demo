@@ -1,0 +1,51 @@
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 32 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 32 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 32 -N 32 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 64 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 64 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 64 -N 64 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 128 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 128 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 128 -N 128 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 256 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 256 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 256 -N 256 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 512 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 512 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 512 -N 512 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 1024 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 1024 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 1024 -N 1024 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 2048 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 2048 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 2048 -N 2048 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 4096 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 4096 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 4096 -N 4096 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 8192 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 8192 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 8192 -N 8192 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 16384 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 16384 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 16384 -N 16384 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 32768 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 32768 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 32768 -N 32768 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 65536 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 65536 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 65536 -N 65536 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 131072 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 131072 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 131072 -N 131072 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 262144 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 262144 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 262144 -N 262144 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 524288 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 524288 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 524288 -N 524288 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 1048576 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 1048576 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 1048576 -N 1048576 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 2097152 -N 0 -p 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 0 -N 2097152 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
+hdl_single_engine -C0 -c 100 -w 0x00000601 -n 2097152 -N 2097152 -p 0x00001F07 -P 0x00001F07 -t 100000 >> hdl_single_engine.log 2>&1
